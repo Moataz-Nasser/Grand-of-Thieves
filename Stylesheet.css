@@ -95,7 +95,7 @@ h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("Backgrounds/BG-photo.png");
+    background-image: url("Backgrounds/BG-photo.webp");
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -246,7 +246,7 @@ input[type="submit"]:hover{
 .about-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-image: url("Backgrounds/bg-imag-2.jpg");
+    background-image: url("Backgrounds/bg-imag-2.webp");
     background-size: cover;
     height: 100vh;
     margin: 0;
@@ -269,13 +269,13 @@ input[type="submit"]:hover{
     width: 90%;
 }
 
-.about-supertitle {
+.about-container h4 {
     font-family: "Rockstar";
     margin: 0;
     font-size: 30px;
 }
 
-.about-title {
+.about-container h1 {
     font-family: "Rockstar";
     font-size: 82px;
     margin-bottom: 10px;
@@ -296,7 +296,7 @@ hr {
     flex-direction: column;
     justify-content: center;
     padding: 0 70px;
-    background-image: url("Backgrounds/bg-2.png");
+    background-image: url("Backgrounds/bg-2.webp");
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -403,10 +403,10 @@ footer div a {
         font-size: 20px;
     }
 
-    .about-supertitle, .newsletter h3{
+    .about-container h4, .newsletter h3{
         font-size: 26px;
     }
-    .about-title, .newsletter h1{
+    .about-container h1, .newsletter h1{
         font-size: 46px;
     }
     .about-text, .newsletter-text{
@@ -468,10 +468,10 @@ footer div a {
         font-size: 14px;
     }
 
-    .about-supertitle, .newsletter h3{
+    .about-container h4, .newsletter h3{
         font-size: 20px;
     }
-    .about-title, .newsletter h1{
+    .about-container h1, .newsletter h1{
         font-size: 40px;
     }
     .about-text, .newsletter-text{
