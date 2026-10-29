@@ -41,16 +41,3 @@ Each layout adjusts typography, spacing, image sizes, and navigation style for o
   - Color variables for easy customization
   - Animations like `floatUpDown` for the scroll indicator
 
-## Setup Instructions
-
-1. Clone or download the repository.
-2. Make sure all fonts are placed correctly inside the `Fonts/` directory as referenced in `styles.css`.
-3. Open `index.html` in a modern web browser to view the site.
-
-## Future Improvements
-
-- Connect the newsletter form to a backend service or API
-- Add scroll-based animations for improved visual effects
-- Improve accessibility with ARIA attributes
-
-
